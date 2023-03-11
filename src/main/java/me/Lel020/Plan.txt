@@ -1,0 +1,13 @@
+The idea is to simulate a person using a real ATM.
+
+Currently, the ATM will be using the Scanner. But after completion of project, I may implement the use of a UI.
+
+The ATM will have the following features:
+- Withdrawal
+- Deposit
+- Balance Inquiry
+- Change Pin (after being set)
+- Transfer (to another account)
+
+
+@LelBit
