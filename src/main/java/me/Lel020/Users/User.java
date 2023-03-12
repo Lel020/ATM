@@ -1,26 +1,5 @@
-package me.Lel020.Users;
+package me.lel020.users;
 
-public class User {
+public record User(String name, String password, String email) {
 
-    private final String name;
-    private final String password;
-    private final String email;
-
-    public User(String name, String password, String email){
-        this.name = name;
-        this.password = password;
-        this.email = email;
-    }
-
-    public String getName(){
-        return name;
-    }
-
-    public String getPassword(){
-        return password;
-    }
-
-    public String getEmail(){
-        return email;
-    }
 }
