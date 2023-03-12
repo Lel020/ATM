@@ -1,4 +1,4 @@
-package me.Lel020.Users;
+package me.lel020.users;
 
 import java.util.ArrayList;
 import java.util.Scanner;
