@@ -1,4 +1,4 @@
-package me.lel020.finance;
+package me.lel020.account;
 
 import java.util.HashSet;
 public class Deposit {

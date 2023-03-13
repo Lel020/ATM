@@ -1,6 +1,6 @@
 package me.lel020.users;
 
-import me.lel020.finance.Deposit;
+import me.lel020.account.Deposit;
 
 import java.util.ArrayList;
 import java.util.Scanner;
