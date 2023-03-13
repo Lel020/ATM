@@ -1,10 +1,13 @@
 package me.lel020.users;
 
+import me.lel020.finance.Deposit;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserManager {
     ArrayList <User> users = new ArrayList <User>();
+    Deposit deposit = new Deposit();
 
     public void addUser() {
 
@@ -41,8 +44,9 @@ public class UserManager {
         }
         while(!isEmail);
 
-        users.add(new User(name,password, email));
-        System.out.println("User added!");
+        System.out.println("Please enter the amount you wish to deposit: ");
+        double balance = scanner.nextDouble();
+        deposit.depositAmount(balance);
 
         scanner.close();
     }
