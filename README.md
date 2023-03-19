@@ -1,2 +1,2 @@
 # ATM
- Simulation of using an ATM in real life.
+ A hopefully better version compared to my last ATM project.
