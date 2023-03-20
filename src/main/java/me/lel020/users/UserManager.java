@@ -19,31 +19,35 @@ public class UserManager {
         boolean isName = false;
         boolean isEmail = false;
 
+        /**
+         * Name
+         */
         do{
             System.out.println("Enter your name: ");
             name = scanner.nextLine();
             isName = isValidName(name);
 
-            if(!isName){
+            if(!isName){ //this is for the regex method
                 System.out.println("Invalid name format, please try again: ");
             }
         }
         while (!isName);
-
         System.out.println("Enter a password: ");
         String password = scanner.nextLine();
 
+        /**
+         * Email
+         */
         do {
             System.out.println("Enter your email: ");
             email = scanner.nextLine();
             isEmail = isValidEmail(email);
 
-            if(!isEmail){
+            if(!isEmail){//this is for the regex method
                 System.out.println("Invalid email, please try again: ");
             }
         }
         while(!isEmail);
-
         System.out.println("Please enter the amount you wish to deposit: ");
         double balance = scanner.nextDouble();
         deposit.depositAmount(balance);

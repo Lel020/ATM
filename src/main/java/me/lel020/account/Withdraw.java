@@ -11,6 +11,7 @@ public class Withdraw {
      * @param amount - amount to be withdrawed.
      */
     public void withdrawAmount(double amount) {
+        //ERROR if balance is <= 0
         if(amount <= 0){
             System.out.println("ERROR: You have $0 in the bank.");
         }
