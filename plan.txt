@@ -5,9 +5,5 @@ Currently, the ATM will be using the Scanner. But after completion of project, I
 The ATM will have the following features:
 - Withdrawal
 - Deposit
-- Balance Inquiry
-- Change Pin (after being set)
-- Transfer (to another account)
-
 
 @LelBit
