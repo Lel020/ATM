@@ -71,6 +71,7 @@ public class UserManager {
                 System.out.println("Please enter the amount you wish to deposit: ");
                 balance = scanner.nextDouble();
                 deposit.depositAmount(balance);
+                System.out.println("Your balance is now: " + balance);
                 break;
             } else {
                 System.out.println("INVALID: Please enter 'w' or 'd'");
